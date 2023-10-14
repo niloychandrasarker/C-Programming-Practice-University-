@@ -1,0 +1,13 @@
+/*2.	Write a program that reads two numbers and display sum. */
+
+#include <stdio.h>
+int main() 
+{
+    int num1, num2;
+    int *ptr1 = &num1, *ptr2 = &num2;
+    scanf("%d %d", ptr1, ptr2);
+    
+    printf("Sum: %d\n", *ptr1 + *ptr2);
+
+    return 0;
+}
