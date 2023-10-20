@@ -35,7 +35,6 @@ int main()
     }
 
     double average = calculateAverage(arr, size);
-
     printf("Average: %.2f\n", average);
 
     return 0;

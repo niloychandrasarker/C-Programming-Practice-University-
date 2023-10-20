@@ -25,7 +25,7 @@ int main()
             }
         }
 
-        if (flag) 
+        if (flag==1) 
         {
             primes[count] = num;
             count++;

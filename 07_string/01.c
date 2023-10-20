@@ -8,7 +8,7 @@ int main()
     fgets(str, sizeof(str), stdin);
 
     for (int i = 0; str[i]; i++) 
-    {
+     {
         str[i] = toupper(str[i]);
     }
 
